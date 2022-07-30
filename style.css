@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+ul {
+  text-align: right;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
