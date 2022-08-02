@@ -1,17 +1,127 @@
 * {
   box-sizing: border-box;
 }
+html {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
-header {
+main {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
   width: 100%;
   background-color: black;
   color: white;
 }
+
+#strong {
+  align-items: flex-start;
+  margin-left: 10px;
+}
+
+.img-strong {
+  display: flex;
+  width: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
 ul {
-  text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-around; */
+  /* text-align: right; */
 }
 
 li {
   display: inline;
   margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.my-pic {
+  width: 100px;
+}
+
+.about {
+  display: flex;
+  background-color: black;
+  color: white;
+  margin-bottom: 1%;
+}
+
+.background-image {
+  width: 100%;
+  margin: 0;
+  /* height: 800px; */
+  background-size: cover;
+}
+
+.pro-img {
+  display: inline;
+  align-items: flex-start;
+  width: 700px;
+  height: 370px;
+}
+
+.projects {
+  display: flex;
+  align-content: center;
+}
+
+#refactoring {
+  display: inline;
+  text-align: end;
+  font-weight: bolder;
+  font-style: oblique;
+  padding: 10%;
+}
+
+.contact-me {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
+
+.contact-me a {
+  color: white;
+  text-decoration: none;
+}
+
+#cont-info {
+  margin-left: 10px;
+}
+
+footer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+  align-content: center;
+  height: 80px;
+  margin-top: 1%;
+}
+
+@media screen and (max-width: 710px) {
+  .main-header {
+    background: #772014;
+  }
 }
