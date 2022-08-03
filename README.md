@@ -11,6 +11,6 @@ https://wasim202.github.io/wasim-portfolio-/
 
 [the previous refactoring project](assets/images/image1.png)
 
-https://wasim202.github.io/horiseon/
+https://wasim202.github.io/Horiseon/
 
 As i learn more in this bootcamp, i will add more projects using different cutting edgetechnologies.
